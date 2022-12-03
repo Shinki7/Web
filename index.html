@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-    <title>Hello, world!</title>
+    <title>FC Barbershop</title>
   </head>
   <body>
     <!--Top Bar-->
@@ -49,19 +49,19 @@
     <!--Banner-->
     <div class="banner img-fluid">
       <div class="text">
-              <h1 class="title Display">
+              <h1 class="title Display my-0">
                   FADE CUT <br> BARBERSHOP
               </h1>
-              <p class="txt lead-5">
+              <p class="txt lead-5 my-4">
                   Best Choice For Your Haircut. <br>
                   Finding a good barber is like finding a good lawyer, you have to go to the same people
               </p>
-              <button type="button" class="btn btn-outline-primary my-5">Service</button>
+              <a href="" class="bt">Reservasi Kunjungan</a>
       </div>
   </div>
 
-  <!--About-->
-  <div class="text-md-center" id="about">
+   <!--About-->
+   <div class="abt text-md-center" id="about">
     <h2 class="h3 my-5" style="font-family: inter;">TENTANG FCB</h2>
     <p class="lead fs-6 my-2" style="font-family: Montserrat;">
         Rambut memang menjadi daya tarik dan sebagai identitas dari karakter seseorang. <br> 
@@ -70,12 +70,87 @@
         Kami akan memberikan saran stayle rambut terbaik yang cocok untukmu dan yang kekinian banget, <br> 
         dengan pelayanan terbaik dan juga kualitas hasil yang memuaskan. <br></br>
     </p>
+    <img src="asset/Logo 2.png" class="lg border border-secondary rounded-circle my-5 img-fluid" style="max-width: 6%;">
+</div>
+  <!--Service-->
+<div class="service">
+  <div class="container">
+    <h1 class="h3 text-md-center my-1 " style="font-family: inter; color: #000;">Services</h1>
+    <figure>  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner my-5 rounded shadow-lg">
+        <div class="carousel-item active">
+          <img src="asset/Banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/Banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/Banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/Banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fourth slide label</h5>
+            <p>Some representative placeholder content for the Fourth slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="box my-5">
+      <div class="col-4">
+          <div class="icon"><i class="fa-solid fa-scissors"></i></div>
+          <h4>HAIRCUT</h4>
+      </div>
+      <div class="col-4">
+          <div class="icon"><i class="fa-solid fa-bottle-droplet"></i></div>
+          <h4>COLORING</h4>
+      </div>
+      <div class="col-4">
+          <div class="icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+          <h4>STYLING</h4>
+      </div>
+      <div class="col-4">
+          <div class="icon"><i class="fa-solid fa-shower"></i></div>
+          <h4>HAIR WASH</h4>
+      </div>
+  </div>
+    <figcaption class="figure-caption text-center fs-4 my-0">Enjoy Our Service Above</figcaption>
+</figure>
+  </div>
+  </div>
 </div>
 
  <!--Location-->
 <section class="loc" id="location">
   <div class="container">
-      <h3 class="text-md-center h3 p-4" style="font-family: inter;">LOKASI</h3>
+      <h3 class="text-md-center h3 p-5 my-3" style="font-family: inter;">LOKASI</h3>
          <div class="map">
             <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3927.2815833662366!2d123.6202825!3d-10.1577514!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569cb07c5c9f13%3A0xd499d54bad302f6f!2sOYO%202814%20Debitos%20Hotel!5e0!3m2!1sen!2sid!4v1664887088580!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
         </div>
