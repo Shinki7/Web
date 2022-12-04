@@ -17,8 +17,7 @@
 .banner a{
     color: #fff;
     text-decoration: none;
-    padding: 15px 10px;
-    font-family: monospace;
+    padding: 15px 20px;
     border: solid 1px #fff;
     transition: 0.3s;
 }
@@ -119,7 +118,7 @@ section h3 {
 }
 
 .card.map-card .living-coral-text {
-  color: #fa7268;
+  color: rgba(0, 0, 0, .6);
 }
 
 .card.map-card .table th {
