@@ -15,17 +15,18 @@
     color: #01003F;
 }
 .banner a{
-    background-color: #000;
     color: #fff;
     text-decoration: none;
     padding: 15px 10px;
+    font-family: monospace;
     border-radius: 3px;
-    border: solid 1px #000;
+    border: solid 1px #fff;
     transition: 0.3s;
 }
 .banner a:hover{
-    background-color: transparent;
-    border: solid 1px #000;
+    border: solid 1px #fff;
+    background-color: #fff;
+    color: #000;
 }
 .banner{
     position: relative;
@@ -115,13 +116,6 @@ section h3 {
 	background-color: rgba(0, 0, 0, .5);
     padding-bottom: 100px;
     padding-top: 10px;
-}
-footer {
-	padding:30px 0;
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-    font-family: montserrat;
 }
 .container{
     width: 80%;
