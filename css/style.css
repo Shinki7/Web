@@ -182,4 +182,19 @@ section h3 {
     .abt img{
         width: 10%;
     }
+    .box{
+        opacity: 0;
+    }
+    .abt h2{
+        text-align: center;
+    }
+    .abt p{
+        text-align: center;
+    }
+    .abt img{
+        opacity: 0;
+    }
+    .service h1{
+        text-align: center;
+    }
 }
